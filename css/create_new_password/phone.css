@@ -23,3 +23,103 @@ body {
     --h_green: #acd9b2;
 }
 
+/* Main */
+
+.main {
+    width: 100%;
+    min-width: 32rem;
+    height: 100vh;
+}
+
+.main__pass-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 90%;
+    max-width: 34rem;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main__pass-cont > img {
+    width: 15rem;
+    height: auto;
+    margin: 0 auto;
+}
+
+.main__pass-cont > h1 {
+    margin-top: 7.6rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.25rem;
+}
+
+.main__pass-cont > h2 {
+    margin-top: .8rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.25rem;
+    color: #797979;
+}
+
+/* Password container */
+
+.pass__form-cont {
+    width: 100%;
+    height: auto;
+    margin-top: 4rem;
+}
+
+/* Form */
+
+.form__lbl {
+    display: block;
+    width: 100;
+    height: auto;
+}
+
+.form__lbl:nth-child(2) {
+    margin-top: 2.4rem;
+}
+
+.form__lbl span {
+    display: block;
+    text-align: left;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+}
+
+.form__lbl input {
+    width: 100%;
+    height: 4.2rem;
+    margin-top: .6rem;
+    padding: 1rem .8rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2rem;
+    color: #797979;
+    background-color: var(--ti_field);
+    border: none;
+    border-radius: 1rem;
+}
+
+.form > input {
+    width: 100%;
+    height: 6rem;
+    margin-top: 3.6rem;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.25;
+    color: var(--white);
+    background-color: var(--h_green);
+    border: none;
+    border-radius: 1rem;
+}
+
+

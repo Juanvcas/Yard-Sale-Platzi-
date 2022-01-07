@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Account</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <!-- font-family: 'Quicksand', sans-serif; -->
+        <!-- font-family: 'Roboto', sans-serif; -->
+    <link rel="stylesheet" href="./css/account/phone.css">
+    <style>
+        .form__butt > input {
+            color: #acd9b2;
+            background-color: #fff;
+            border: solid 1px #acd9b2;
+        }
+    </style>
+</head>
+<body class="container">
+    <header class="header">
+        <nav class="header__nav">
+            <img src="./src/svg/icon_menu.svg" alt="">
+        </nav>
+        <img src="./src/svg/logo_yard_sale.svg" alt="Yard sale Logo">
+        <a href=""><img src="./src/svg/icon_shopping_cart.svg" alt=""></a>
+    </header>
+    <main class="main">
+        <section class="main__acc-cont">
+            <h1>My account</h1>
+            <section class="acc__form-cont">
+                <form action="" class="form">
+                    <label for="name" class="form__lbl">
+                        <span>Name</span>
+                        <input type="text" id="name" name="name" placeholder="Your name">
+                    </label>
+                    <label for="email" class="form__lbl">
+                        <span>Email Address</span>
+                        <input type="email" id="email" name="email" placeholder="example@mail.com">
+                    </label>
+                    <label for="password" class="form__lbl">
+                        <span>Password</span>
+                        <input type="password" id="password" name="password" placeholder="*********">
+                    </label>
+                    <div class="form__butt">
+                        <input type="submit" value="Save" class="form__butt">
+                    </div>
+                </form>
+        </section>
+    </main>
+</body>
+</html>

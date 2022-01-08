@@ -181,6 +181,8 @@ body {
     background-repeat: no-repeat;
 }
 
+/* Articles */
+
 .main__arts {
     display: flex;
     flex-wrap: wrap;
